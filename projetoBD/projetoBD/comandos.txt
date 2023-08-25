@@ -1,0 +1,5 @@
+docker exec -it db bash
+psql -d dbprojeto -U user
+
+para aparecerem as tabelas todas:
+\dt
